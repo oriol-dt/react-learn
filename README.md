@@ -1,6 +1,6 @@
 # 🛒 Mini Ecommerce - React Project
 
-Este proyecto es una aplicación de comercio electrónico desarrollada con **React**
+Este proyecto es una aplicación de comercio electrónico desarrollada con **React**, enfocada en la creación de interfaces dinámicas, reutilización de componentes y gestión eficiente del estado en el cliente.
 
 > **Nota del Autor:** Este proyecto se encuentra actualmente en **fase de desarrollo**. Las funcionalidades se irán implementando según el cronograma de aprendizaje establecido para el mes de mayo.
 
