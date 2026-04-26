@@ -6,29 +6,31 @@ Este proyecto es una aplicación de comercio electrónico desarrollada con **Rea
 
 ---
 
-## 🚀 Tecnologías y Herramientas
-* **Core:** React.js (Node LTS)
-* **Entorno de Desarrollo:** Docker (Contenedores aislados para garantizar la consistencia del runtime)
-* **Gestión de Estado:** Hooks (`useState`, `useEffect`)
-* **Enrutado:** React Router
+## 🚀 Tecnologías 
+* **React.js** (Versión LTS)
+* **Gestión de Estado:** Hooks nativos (`useState`, `useEffect`)
+* **Navegación:** React Router
+* **Estilos:** CSS3 / Módulos
 
 ---
 
-## 🛠️ Configuración del Entorno
-*Aunque el foco principal es el desarrollo en React, el proyecto utiliza Docker para estandarizar el entorno de ejecución.*
+## 📅 Roadmap de Desarrollo (Mayo 2026)
+Siguiendo una metodología de aprendizaje progresivo, el proyecto se divide en los siguientes hitos:
 
-Para levantar el entorno local:
-1. Asegúrate de tener Docker instalado.
-2. Ejecuta `docker-compose up -d`.
-3. Accede a `http://localhost:3000`.
+1. **Arquitectura de Componentes:** Definición de la jerarquía y flujo de datos mediante *props*.
+2. **Interactividad:** Implementación de lógica de usuario y manejo de eventos.
+3. **Sistema de Rutas:** Configuración de vistas independientes para catálogo y carrito.
+4. **Persistencia y UI:** Refinamiento de la experiencia de compra y validación de datos.
 
 ---
 
-## 📅 Roadmap de Implementación (Mayo)
-- [ ] **Semana 1:** Estructura de Componentes y paso de Props.
-- [ ] **Semana 2:** Lógica de Estado y Hooks.
-- [ ] **Semana 3:** Implementación de Navegación (Routing).
-- [ ] **Semana 4:** Finalización del Carrito de Compras y Pulido de UI.
+## 🚀 Instalación y Uso
+Para ejecutar este proyecto en local, solo necesitas tener Node.js instalado:
+
+1. Clonar el repositorio.
+2. Ejecutar `npm install` para descargar las dependencias.
+3. Iniciar la aplicación con `npm start`.
+4. Abrir `http://localhost:3000` en el navegador.
 
 ---
 
