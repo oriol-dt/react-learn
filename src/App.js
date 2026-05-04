@@ -1,8 +1,5 @@
 import logo from './logo.svg';
-<<<<<<< HEAD
-=======
 import Cat, { Dog } from './Animals';
->>>>>>> 012b2670ecb89596f7c98a812fddd973ad01b43a
 import './App.css';
 
 function App() {
@@ -22,11 +19,8 @@ function App() {
           Learn React
         </a>
       </header>
-<<<<<<< HEAD
-=======
       <Cat />
       <Dog />
->>>>>>> 012b2670ecb89596f7c98a812fddd973ad01b43a
     </div>
   );
 }
