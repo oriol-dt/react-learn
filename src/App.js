@@ -1,5 +1,4 @@
 import logo from './logo.svg';
-import Cat, { Dog } from './Animals';
 import './App.css';
 
 function App() {
@@ -19,8 +18,6 @@ function App() {
           Learn React
         </a>
       </header>
-      <Cat />
-      <Dog />
     </div>
   );
 }
