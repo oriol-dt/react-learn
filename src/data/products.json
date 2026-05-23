@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Teclado Mecánico Retro",
+    "price": 89.99,
+    "description": "Switches táctiles con estética clásica de los 80.",
+    "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=500&q=80",
+    "stock": 5
+  },
+  {
+    "id": 2,
+    "name": "Ratón Óptico Gaming",
+    "price": 45.50,
+    "description": "Sensor de alta precisión y diseño ergonómico.",
+    "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?w=500&q=80",
+    "stock": 3
+  },
+  {
+    "id": 3,
+    "name": "Alfombrilla Gamer XL",
+    "price": 19.99,
+    "description": "Superficie de tela optimizada para deslizamiento rápido.",
+    "image": "https://images.unsplash.com/photo-1585620385456-4759f9b5c7d9?q=80&w=500",
+    "stock": 100
+  }
+]
