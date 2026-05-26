@@ -29,13 +29,18 @@ function Navbar() {
     };
 
     return (
-        <nav style={navStyle}>
-            <Link to="/" style={logoStyle}><h1>⚡ RetroShop</h1></Link>
-            <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
-                <Link to="/" style={linkStyle}>Tienda</Link>
-                <Link to="/carrito" style={linkStyle}>Carrito 🛒 {totalItems > 0 && <span>({totalItems})</span>}</Link>
+        <header>
+            <div style={{ backgroundColor: '#ff4d4f', color: 'white', textAlign: 'center', padding: '5px', fontWeight: 'bold', fontSize: '14px' }}>
+                ⚠️ Proyecto académico - Sin fines comerciales
             </div>
-        </nav>
+            <nav style={navStyle}>
+                <Link to="/" style={logoStyle}><h1>⚡ RetroShop</h1></Link>
+                <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
+                    <Link to="/" style={linkStyle}>Tienda</Link>
+                    <Link to="/carrito" style={linkStyle}>Carrito 🛒 {totalItems > 0 && <span>({totalItems})</span>}</Link>
+                </div>
+            </nav>
+        </header>
     )
 }
 
