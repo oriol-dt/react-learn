@@ -22,5 +22,133 @@
     "description": "Superficie de tela optimizada para deslizamiento rápido.",
     "image": "https://images.unsplash.com/photo-1585620385456-4759f9b5c7d9?q=80&w=500",
     "stock": 100
+  },
+  {
+    "id": 4,
+    "name": "Monitor Curvo 27\" 144Hz",
+    "price": 299.99,
+    "description": "Inmersión total para gaming y productividad.",
+    "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=500&q=80",
+    "stock": 12
+  },
+  {
+    "id": 5,
+    "name": "Auriculares HyperX Cloud",
+    "price": 75.00,
+    "description": "Comodidad legendaria y sonido espacial.",
+    "image": "https://row.hyperx.com/cdn/shop/files/hyperx_cloud_alpha_wireless_1_main.jpg?v=1745914432",
+    "stock": 20
+  },
+  {
+    "id": 6,
+    "name": "Procesador Ryzen 9 5900X",
+    "price": 349.00,
+    "description": "El mejor rendimiento para multitarea y juegos.",
+    "image": "https://thumb.pccomponentes.com/w-530-530/articles/32/328702/1997-amd-ryzen-9-5900x-37-ghz.jpg",
+    "stock": 8
+  },
+  {
+    "id": 7,
+    "name": "Tarjeta Gráfica RTX 4070",
+    "price": 599.99,
+    "description": "Ray tracing de última generación y DLSS 3.",
+    "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?w=500&q=80",
+    "stock": 4
+  },
+  {
+    "id": 8,
+    "name": "Memoria RAM 32GB DDR5",
+    "price": 120.00,
+    "description": "Velocidad extrema para tu sistema.",
+    "image": "https://images.unsplash.com/photo-1562976540-1502c2145186?w=500&q=80",
+    "stock": 15
+  },
+  {
+    "id": 9,
+    "name": "Disco SSD NVMe 1TB",
+    "price": 85.00,
+    "description": "Tiempos de carga casi instantáneos.",
+    "image": "https://images.unsplash.com/photo-1686705562930-4f3e46f620d8?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "stock": 30
+  },
+  {
+    "id": 10,
+    "name": "Placa Base Z790 Gaming",
+    "price": 240.00,
+    "description": "Conectividad total para procesadores Intel.",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80",
+    "stock": 10
+  },
+  {
+    "id": 11,
+    "name": "Fuente de Alimentación 850W Gold",
+    "price": 130.00,
+    "description": "Eficiencia y potencia estable para tu PC.",
+    "image": "https://images.unsplash.com/photo-1754928864335-608149b7f6a9?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "stock": 18
+  },
+  {
+    "id": 12,
+    "name": "Caja ATX Tempered Glass",
+    "price": 95.00,
+    "description": "Diseño moderno con flujo de aire optimizado.",
+    "image": "https://images.unsplash.com/photo-1755182528946-1dad8a79f44d?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "stock": 7
+  },
+  {
+    "id": 13,
+    "name": "Webcam 4K Streaming",
+    "price": 110.00,
+    "description": "Imagen nítida para tus directos y reuniones.",
+    "image": "https://images.unsplash.com/photo-1623949556303-b0d17d198863?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "stock": 25
+  },
+  {
+    "id": 14,
+    "name": "Micrófono de Condensador",
+    "price": 88.50,
+    "description": "Calidad de estudio para tu voz.",
+    "image": "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?w=500&q=80",
+    "stock": 14
+  },
+  {
+    "id": 15,
+    "name": "Silla Gaming Ergonómica",
+    "price": 180.00,
+    "description": "Soporte lumbar para largas sesiones de juego.",
+    "image": "https://images.unsplash.com/photo-1670946839270-cc4febd43b09?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "stock": 6
+  },
+  {
+    "id": 16,
+    "name": "Portátil Gaming 15.6\"",
+    "price": 1200.00,
+    "description": "Potencia de escritorio en formato portátil.",
+    "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=500&q=80",
+    "stock": 5
+  },
+  {
+    "id": 17,
+    "name": "Router WiFi 6 Gaming",
+    "price": 150.00,
+    "description": "Conexión estable y baja latencia.",
+    "image": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=500&q=80",
+    "stock": 22
+  },
+  {
+    "id": 18,
+    "name": "Capturadora de Vídeo",
+    "price": 135.00,
+    "description": "Graba tus partidas con calidad profesional.",
+    "image": "https://plus.unsplash.com/premium_photo-1678112179946-f13658b3e918?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "stock": 9
+  },
+  {
+    "id": 19,
+    "name": "Procesador Intel Core i9-14900KF 3.2/2.6GHz",
+    "price": 460.45,
+    "description": "Procesador de gama alta con 24 núcleos para un rendimiento extremo en gaming y creación de contenido.",
+    "image": "https://images.unsplash.com/photo-1555617766-c94804975da3?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "stock": 5
   }
 ]

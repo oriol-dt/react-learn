@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import { useCart } from '../context/CartContext';
+import { useNavigate } from 'react-router-dom';
 
 function ProductCard({ product }) {
     const { addToCart, getProductStockAvailable } = useCart();
     const [isHovered, setIsHovered] = useState(false);
+    const navigate = useNavigate();
 
     const availableStock = getProductStockAvailable(product);
     const isOutOfStock = availableStock <= 0;
@@ -23,7 +25,8 @@ function ProductCard({ product }) {
             : '0 4px 10px rgba(0, 0, 0, 0.3)',
         transform: isHovered ? 'translateY(-4px)' : 'translateY(0)',
         transition: 'all 0.2s ease-in-out',
-        opacity: isOutOfStock ? 0.6 : 1
+        opacity: isOutOfStock ? 0.6 : 1,
+        cursor: 'pointer'
     };
 
     const imageContainerStyle = {
@@ -79,13 +82,15 @@ function ProductCard({ product }) {
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
         >
-            <div style={imageContainerStyle}>
-                <img src={product.image} alt={product.name} style={imageStyle} />
+            <div onClick={() => navigate(`/producto/${product.id}`)} style={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
+                <div style={imageContainerStyle}>
+                    <img src={product.image} alt={product.name} style={imageStyle} />
+                </div>
+
+                <h3 style={{ color: '#111', marginTop: '15px', fontSize: '18px' }}>{product.name}</h3>
+
+                <p style={descriptionStyle}>{product.description}</p>
             </div>
-
-            <h3 style={{ color: '#111', marginTop: '15px', fontSize: '18px' }}>{product.name}</h3>
-
-            <p style={descriptionStyle}>{product.description}</p>
 
             <div style={{ margin: '5px 0', fontSize: '14px' }}>
                 {isOutOfStock ? (
@@ -101,7 +106,10 @@ function ProductCard({ product }) {
 
             <button
                 style={buttonStyle}
-                onClick={() => addToCart(product)}
+                onClick={(e) => {
+                    e.stopPropagation();
+                    addToCart(product);
+                }}
                 disabled={isOutOfStock}
             >
                 {isOutOfStock ? 'Sin stock' : 'Añadir al carrito'}

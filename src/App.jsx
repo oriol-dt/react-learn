@@ -4,6 +4,8 @@ import { CartProvider } from './context/CartContext';
 import Navbar from './components/Navbar';
 import Home from './views/Home';
 import Cart from './views/Cart';
+import ProductDetail from './views/ProductDetail';
+import Checkout from './views/Checkout';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
               <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/carrito" element={<Cart />} />
+                <Route path="/producto/:id" element={<ProductDetail />} />
+                <Route path="/checkout" element={<Checkout />} />
               </Routes>
           </Router>
       </CartProvider>

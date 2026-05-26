@@ -129,9 +129,17 @@ function Cart() {
 
             <div style={{ marginTop: '20px', textAlign: 'right' }}>
                 <h3>Total: {formatPrice(totalPrice)}</h3>
-                <button style={buttonClearStyle} onClick={clearCart}>
-                    Vaciar carrito
-                </button>
+                <div style={{ display: 'flex', justifyContent: 'flex-end', gap: '10px' }}>
+                    <button style={buttonClearStyle} onClick={clearCart}>
+                        Vaciar carrito
+                    </button>
+                    <button 
+                        style={{ ...buttonClearStyle, backgroundColor: '#27ae60' }} 
+                        onClick={() => navigate('/checkout')}
+                    >
+                        Finalizar Compra
+                    </button>
+                </div>
             </div>
         </div>
     );

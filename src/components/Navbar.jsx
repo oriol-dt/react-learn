@@ -6,24 +6,32 @@ function Navbar() {
     const { totalItems } = useCart();
     const navStyle = {
         display: 'flex',
-        justifyContent: 'space-between',
+        flexWrap: 'wrap',
+        justifyContent: 'center',
         alignItems: 'center',
         padding: '10px 20px',
         backgroundColor: '#222',
-        color: '#fff'
+        color: '#fff',
+        gap: '10px'
     };
 
     const linkStyle = {
         color: '#fff',
-        marginLeft: '15px',
+        margin: '5px 10px',
         textDecoration: 'none',
         fontWeight: 'bold'
     };
 
+    const logoStyle = {
+        ...linkStyle,
+        margin: '0',
+        fontSize: '1.2rem'
+    };
+
     return (
         <nav style={navStyle}>
-            <h1>⚡ RetroShop</h1>
-            <div>
+            <Link to="/" style={logoStyle}><h1>⚡ RetroShop</h1></Link>
+            <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
                 <Link to="/" style={linkStyle}>Tienda</Link>
                 <Link to="/carrito" style={linkStyle}>Carrito 🛒 {totalItems > 0 && <span>({totalItems})</span>}</Link>
             </div>
