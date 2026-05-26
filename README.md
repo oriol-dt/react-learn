@@ -1,16 +1,56 @@
-# React + Vite
+# ⚡ RetroShop - Mini Ecommerce
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**<u>Desarrollado como proyecto de práctica en React.</u>**
 
-Currently, two official plugins are available:
+Una aplicación de comercio electrónico minimalista construida con **React** y **Vite**, enfocada en la venta de productos informáticos y periféricos con una estética retro.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Funcionalidades
 
-## React Compiler
+- **Catálogo Dinámico:** Más de 18 productos informáticos detallados (CPUs, GPUs, Monitores, Periféricos, etc.).
+- **Búsqueda en Tiempo Real:** Filtra productos por nombre instantáneamente desde la página principal.
+- **Carrito de Compras:** Gestión completa del carrito (añadir, eliminar, vaciar) utilizando **Context API**.
+- **Control de Stock:** Validación de disponibilidad de productos en tiempo real.
+- **Vistas Detalladas:** Ficha individual para cada producto con descripción extendida y especificaciones.
+- **Diseño Responsivo:** Interfaz optimizada para dispositivos móviles y escritorio.
+- **Navegación Fluida:** Enrutamiento implementado con **React Router**.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tecnologías Utilizadas
 
-## Expanding the ESLint configuration
+- **React 19** (Hooks: `useState`, `useEffect`, `useContext`)
+- **Vite** (Herramienta de construcción ultra rápida)
+- **React Router 7** (Gestión de rutas SPA)
+- **Context API** (Gestión de estado global del carrito)
+- **CSS-in-JS** (Estilos modulares y dinámicos)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Instalación y Uso
+
+1. **Clonar el repositorio:**
+   ```bash
+   git clone <url-del-repositorio>
+   cd mini-ecommerce
+   ```
+
+2. **Instalar dependencias:**
+   ```bash
+   npm install
+   ```
+
+3. **Ejecutar en modo desarrollo:**
+   ```bash
+   npm run dev
+   ```
+
+4. **Construir para producción:**
+   ```bash
+   npm run build
+   ```
+
+## 📂 Estructura del Proyecto
+
+- `src/components/`: Componentes reutilizables (Navbar, ProductCard).
+- `src/views/`: Páginas principales (Home, ProductDetail, Cart).
+- `src/context/`: Lógica de estado global (CartContext).
+- `src/data/`: Fuente de datos de productos (JSON).
+
+---
+**<u>Desarrollado como proyecto de práctica en React.</u>**
